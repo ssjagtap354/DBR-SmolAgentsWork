@@ -1,0 +1,9 @@
+# create .gitignore file in your project folder
+# add these lines to it:
+
+.env
+__pycache__/
+*.pyc
+.vscode/
+*.egg-info/
+dist/
