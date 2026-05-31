@@ -1,0 +1,13 @@
+In this Doc the steps are outlines for How we accessed DBR table using Python 
+Also how table in DBR cloud is fed to Agent we built to answer questions using Natural language. 
+
+1.	We Will create new Python Project in DBR-SmolAgentsWork
+2.  get_gold_data.py - 
+	- This cript will connect to Databricks instance.
+	- Will read data from GOld level 'fact_orders' table. 
+	- Data will be returned to the caller as Pandas Dataframe. 
+3. new Agent file 'DBR-Smolagent.py will be created . 
+	- This file will have agent created based on InferenceClient of SmolAgent framework. 
+	- this agent should answer all questions asked in Natural language. 
+
+
