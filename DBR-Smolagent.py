@@ -22,6 +22,21 @@ RULES:
 6. End with a clear one line summary
 """
 
+
+# Questions file . 
+
+QUESTIONS_FILE = "Questions.txt"
+
+# real all questions 
+questions = []
+
+def load_questions(filepath: str) -> list[str]:
+    with open(filepath, "r", encoding="utf-8") as f:
+        questions = [ line.strip() for line in f if line.strip()]
+        return questions
+    
+
+
 agent = CodeAgent(
     tools = [query_fact_orders],
     model=model,
@@ -33,11 +48,7 @@ agent = CodeAgent(
 
 
 if __name__ == "__main__":
-    questions = [
-        "Who is the customer with highest spending ?"
-        "List avergage revenue for all categories "
-        ""
-    ]
+    questions = load_questions(QUESTIONS_FILE)
 
     for each_question in questions:
         print(f"{"-"*50}")
