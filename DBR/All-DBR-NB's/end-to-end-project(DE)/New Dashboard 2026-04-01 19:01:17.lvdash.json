@@ -1,0 +1,24 @@
+{
+  "datasets": [
+    {
+      "name": "9892e78a",
+      "displayName": "fact_orders",
+      "queryLines": [
+        "SELECT * FROM ecommerce.gold.fact_orders"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "758d43e0",
+      "displayName": "Untitled page",
+      "pageType": "PAGE_TYPE_CANVAS"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    },
+    "applyModeEnabled": false
+  }
+}
