@@ -1,0 +1,10 @@
+How many different channels are there?
+What is the total sale amount across all orders?
+Which channel generated the highest total revenue?
+How many unique customers placed orders?
+What is the average discount percentage given across all orders?
+How many orders used a coupon code?
+What is the total tax amount collected?
+Which currency is used most frequently in orders?
+What is the average order value (sale_amt) per order?
+How many orders had a quantity greater than 2 in last two weeks ? and compare it to previous two weeks. 
